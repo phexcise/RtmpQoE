@@ -1,0 +1,204 @@
+﻿Build started 2017/8/7 14:41:37.
+     1>Project "E:\2017\RTMPQoE-master\final\final.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\final.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\final.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\include /I..\include\SDL /I..\WpdPack_4_1_2\WpdPack\Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXDLL /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\final.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>e:\2017\rtmpqoe-master\final\ctchart.h(3): warning C4278: 'LoadImage': identifier in type library 'C:\\Program Files (x86)\\TeeChart Pro v5 ActiveX Control\\TeeChart5.ocx' is already a macro; use the 'rename' qualifier
+     1>e:\2017\rtmpqoe-master\final\ctchart.h(3): warning C4278: 'TextOut': identifier in type library 'C:\\Program Files (x86)\\TeeChart Pro v5 ActiveX Control\\TeeChart5.ocx' is already a macro; use the 'rename' qualifier
+     1>e:\2017\rtmpqoe-master\final\ctchart.h(3): warning C4278: 'LoadImage': identifier in type library 'C:\\Program Files (x86)\\TeeChart Pro v5 ActiveX Control\\TeeChart5.ocx' is already a macro; use the 'rename' qualifier
+     1>e:\2017\rtmpqoe-master\final\stdafx.h(91): warning C4005: 'INT64_MIN' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : see previous definition of 'INT64_MIN'
+     1>e:\2017\rtmpqoe-master\final\stdafx.h(92): warning C4005: 'INT64_MAX' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : see previous definition of 'INT64_MAX'
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\include /I..\include\SDL /I..\WpdPack_4_1_2\WpdPack\Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXDLL /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\final.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AdapterList.cpp cmdutils.cpp ffplay.cpp final.cpp finalDlg.cpp net_qoe.cpp Score.cpp CTchart1.cpp Welcome.cpp
+         Welcome.cpp
+         CTchart1.cpp
+         Score.cpp
+         net_qoe.cpp
+     1>e:\2017\rtmpqoe-master\final\ffplay.h(43): warning C4091: 'typedef ' : ignored on left of 'VideoState' when no variable is declared
+     1>e:\2017\rtmpqoe-master\final\net_qoe.h(14): warning C4091: 'typedef ' : ignored on left of 'delay_param' when no variable is declared
+     1>e:\2017\rtmpqoe-master\final\net_qoe.h(14): warning C4091: 'typedef ' : ignored on left of 'delay_param' when no variable is declared
+     1>e:\2017\rtmpqoe-master\final\net_qoe.cpp(270): warning C4244: '=' : conversion from 'time_t' to 'u_int', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\net_qoe.cpp(308): warning C4244: '=' : conversion from 'time_t' to 'u_int', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\net_qoe.cpp(315): warning C4244: '=' : conversion from 'time_t' to 'u_int', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\net_qoe.cpp(161): warning C4101: 'timestr' : unreferenced local variable
+     1>e:\2017\rtmpqoe-master\final\net_qoe.cpp(146): warning C4101: 'inum' : unreferenced local variable
+     1>e:\2017\rtmpqoe-master\final\net_qoe.cpp(178): warning C4101: 'sport' : unreferenced local variable
+     1>e:\2017\rtmpqoe-master\final\net_qoe.cpp(176): warning C4101: 'tcp_body_len' : unreferenced local variable
+     1>e:\2017\rtmpqoe-master\final\net_qoe.cpp(179): warning C4101: 'dport' : unreferenced local variable
+     1>e:\2017\rtmpqoe-master\final\net_qoe.cpp(160): warning C4101: 'ltime' : unreferenced local variable
+     1>e:\2017\rtmpqoe-master\final\net_qoe.cpp(171): warning C4101: 'rh' : unreferenced local variable
+     1>e:\2017\rtmpqoe-master\final\net_qoe.cpp(435): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>e:\2017\rtmpqoe-master\final\net_qoe.cpp(352): warning C4101: 'KPps' : unreferenced local variable
+         finalDlg.cpp
+     1>e:\2017\rtmpqoe-master\final\ffplay.h(43): warning C4091: 'typedef ' : ignored on left of 'VideoState' when no variable is declared
+     1>e:\2017\rtmpqoe-master\final\net_qoe.h(14): warning C4091: 'typedef ' : ignored on left of 'delay_param' when no variable is declared
+     1>e:\2017\rtmpqoe-master\final\finaldlg.cpp(368): warning C4244: 'argument' : conversion from '__int64' to 'UINT', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\finaldlg.cpp(371): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\finaldlg.cpp(373): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\finaldlg.cpp(375): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         final.cpp
+     1>e:\2017\rtmpqoe-master\final\ffplay.h(43): warning C4091: 'typedef ' : ignored on left of 'VideoState' when no variable is declared
+     1>e:\2017\rtmpqoe-master\final\net_qoe.h(14): warning C4091: 'typedef ' : ignored on left of 'delay_param' when no variable is declared
+         ffplay.cpp
+     1>e:\2017\rtmpqoe-master\final\ffplay.h(43): warning C4091: 'typedef ' : ignored on left of 'VideoState' when no variable is declared
+     1>e:\2017\rtmpqoe-master\final\net_qoe.h(14): warning C4091: 'typedef ' : ignored on left of 'delay_param' when no variable is declared
+     1>e:\2017\rtmpqoe-master\final\ffplay.h(43): warning C4091: 'typedef ' : ignored on left of 'VideoState' when no variable is declared
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(417): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(468): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(635): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(639): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(680): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(1121): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(1167): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(1210): warning C4244: '=' : conversion from 'int64_t' to 'int16_t', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(1297): warning C4244: '=' : conversion from 'double' to 'FFTSample', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(1307): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(1309): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(1649): warning C4305: '=' : truncation from 'int64_t' to 'double'
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(1978): warning C4305: '=' : truncation from 'int64_t' to 'double'
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(1981): warning C4305: '=' : truncation from 'int64_t' to 'double'
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(2317): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(2475): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(2567): warning C4018: '>=' : signed/unsigned mismatch
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(2644): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(2659): warning C4018: '>=' : signed/unsigned mismatch
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(2763): warning C4018: '>=' : signed/unsigned mismatch
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(2956): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(2958): warning C4101: 'zhenlv' : unreferenced local variable
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(3246): warning C4018: '>=' : signed/unsigned mismatch
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(3499): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(3336): warning C4101: 'incr' : unreferenced local variable
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(3336): warning C4101: 'frac' : unreferenced local variable
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(3336): warning C4101: 'pos' : unreferenced local variable
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(3347): warning C4101: 'x' : unreferenced local variable
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(3532): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(3538): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\ffplay.cpp(3794): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         cmdutils.cpp
+     1>e:\2017\rtmpqoe-master\include\libavformat\os_support.h(118): warning C4005: 'POLLIN' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1545) : see previous definition of 'POLLIN'
+     1>e:\2017\rtmpqoe-master\include\libavformat\os_support.h(119): warning C4005: 'POLLOUT' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1549) : see previous definition of 'POLLOUT'
+     1>e:\2017\rtmpqoe-master\include\libavformat\os_support.h(120): warning C4005: 'POLLRDNORM' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1543) : see previous definition of 'POLLRDNORM'
+     1>e:\2017\rtmpqoe-master\include\libavformat\os_support.h(121): warning C4005: 'POLLWRNORM' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1548) : see previous definition of 'POLLWRNORM'
+     1>e:\2017\rtmpqoe-master\include\libavformat\os_support.h(122): warning C4005: 'POLLRDBAND' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1544) : see previous definition of 'POLLRDBAND'
+     1>e:\2017\rtmpqoe-master\include\libavformat\os_support.h(123): warning C4005: 'POLLWRBAND' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1550) : see previous definition of 'POLLWRBAND'
+     1>e:\2017\rtmpqoe-master\include\libavformat\os_support.h(124): warning C4005: 'POLLPRI' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1546) : see previous definition of 'POLLPRI'
+     1>e:\2017\rtmpqoe-master\include\libavformat\os_support.h(127): warning C4005: 'POLLERR' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1552) : see previous definition of 'POLLERR'
+     1>e:\2017\rtmpqoe-master\include\libavformat\os_support.h(128): warning C4005: 'POLLHUP' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1553) : see previous definition of 'POLLHUP'
+     1>e:\2017\rtmpqoe-master\include\libavformat\os_support.h(129): warning C4005: 'POLLNVAL' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1554) : see previous definition of 'POLLNVAL'
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(315): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(317): warning C4305: 'argument' : truncation from '__int64' to 'double'
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(317): warning C4305: 'argument' : truncation from '__int64' to 'double'
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(317): warning C4244: '=' : conversion from 'double' to 'int64_t', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(321): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(426): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(433) : see declaration of 'getenv'
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(446): warning C4101: 'swr_class' : unreferenced local variable
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(446): warning C4101: 'sc' : unreferenced local variable
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(534): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(538): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(539): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(542): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(608): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(862): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(1071): warning C4101: 'descr' : unreferenced local variable
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(1072): warning C4101: 'i' : unreferenced local variable
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(1071): warning C4101: 'descr_cur' : unreferenced local variable
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(1073): warning C4101: 'pad' : unreferenced local variable
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(1072): warning C4101: 'j' : unreferenced local variable
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(1103): warning C4101: 'i' : unreferenced local variable
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(1102): warning C4101: 'pix_fmt' : unreferenced local variable
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(1304): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(1308): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(1321): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(1325): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(1344): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(433) : see declaration of 'getenv'
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(1345): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(433) : see declaration of 'getenv'
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(1350): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(1364): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(175) : see declaration of 'strncat'
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(1373): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(1374): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(1379): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(1380): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\2017\rtmpqoe-master\final\cmdutils.cpp(1468): warning C4018: '<' : signed/unsigned mismatch
+         AdapterList.cpp
+         Generating Code...
+     1>e:\2017\rtmpqoe-master\final\net_qoe.cpp(335): warning C4715: 'delay_qoe' : not all control paths return a value
+     1>e:\2017\rtmpqoe-master\final\net_qoe.cpp(458): warning C4715: 'download_speed' : not all control paths return a value
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\final.res" final.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\final.exe.embed.manifest.res" Debug\final_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\2017\RTMPQoE-master\Debug\final.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\lib /LIBPATH:..\WpdPack_4_1_2\WpdPack\lib avcodec.lib avformat.lib avutil.lib avdevice.lib avfilter.lib postproc.lib swresample.lib swscale.lib SDL.lib wsock32.lib ws2_32.lib Iphlpapi.lib wpcap.lib faad_realtime.lib libfaad.lib mp4ff.lib Winmm.lib opencv_ml249d.lib opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_objdetect249d.lib opencv_ts249d.lib opencv_video249d.lib opencv_nonfree249d.lib opencv_ocl249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_superres249d.lib opencv_videostab249d.lib opencv_objdetect249.lib opencv_ts249.lib opencv_video249.lib opencv_nonfree249.lib opencv_ocl249.lib opencv_photo249.lib opencv_stitching249.lib opencv_superres249.lib opencv_videostab249.lib opencv_calib3d249.lib opencv_contrib249.lib opencv_core249.lib opencv_features2d249.lib opencv_flann249.lib opencv_gpu249.lib opencv_highgui249.lib opencv_imgproc249.lib opencv_legacy249.lib opencv_ml249.lib /MANIFEST /ManifestFile:"Debug\final.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\2017\RTMPQoE-master\Debug\final.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\2017\RTMPQoE-master\Debug\final.lib" /MACHINE:X86 Debug\final.res
+         Debug\final.exe.embed.manifest.res
+         Debug\AdapterList.obj
+         Debug\cmdutils.obj
+         Debug\ffplay.obj
+         Debug\final.obj
+         Debug\finalDlg.obj
+         Debug\net_qoe.obj
+         Debug\Score.obj
+         Debug\stdafx.obj
+         Debug\CTchart1.obj
+         Debug\Welcome.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+       Manifest:
+         Deleting file "Debug\final.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\final.exe.embed.manifest" /manifest Debug\final.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\final.exe.embed.manifest.res" Debug\final_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\2017\RTMPQoE-master\Debug\final.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\lib /LIBPATH:..\WpdPack_4_1_2\WpdPack\lib avcodec.lib avformat.lib avutil.lib avdevice.lib avfilter.lib postproc.lib swresample.lib swscale.lib SDL.lib wsock32.lib ws2_32.lib Iphlpapi.lib wpcap.lib faad_realtime.lib libfaad.lib mp4ff.lib Winmm.lib opencv_ml249d.lib opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_objdetect249d.lib opencv_ts249d.lib opencv_video249d.lib opencv_nonfree249d.lib opencv_ocl249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_superres249d.lib opencv_videostab249d.lib opencv_objdetect249.lib opencv_ts249.lib opencv_video249.lib opencv_nonfree249.lib opencv_ocl249.lib opencv_photo249.lib opencv_stitching249.lib opencv_superres249.lib opencv_videostab249.lib opencv_calib3d249.lib opencv_contrib249.lib opencv_core249.lib opencv_features2d249.lib opencv_flann249.lib opencv_gpu249.lib opencv_highgui249.lib opencv_imgproc249.lib opencv_legacy249.lib opencv_ml249.lib /MANIFEST /ManifestFile:"Debug\final.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\2017\RTMPQoE-master\Debug\final.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\2017\RTMPQoE-master\Debug\final.lib" /MACHINE:X86 Debug\final.res
+         Debug\final.exe.embed.manifest.res
+         Debug\AdapterList.obj
+         Debug\cmdutils.obj
+         Debug\ffplay.obj
+         Debug\final.obj
+         Debug\finalDlg.obj
+         Debug\net_qoe.obj
+         Debug\Score.obj
+         Debug\stdafx.obj
+         Debug\CTchart1.obj
+         Debug\Welcome.obj
+         final.vcxproj -> E:\2017\RTMPQoE-master\Debug\final.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\final.unsuccessfulbuild".
+         Touching "Debug\final.lastbuildstate".
+     1>Done Building Project "E:\2017\RTMPQoE-master\final\final.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.14
